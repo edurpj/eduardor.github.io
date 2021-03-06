@@ -1,0 +1,37 @@
+.downOne {
+    /* dysplay: inline-block, bloqueia o inline padrão da tag a, 
+    que não permite usar width e o height*/
+    display: inline-block;
+    background-color: #4C5B84;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 0px #000;
+    margin-right: 0;
+    transition: transform 400ms cubic-bezier(0.42, 0, 0.03, 1.56);
+
+}
+
+.downOne:hover {
+    transform: scale(1.08);
+}
+
+.buttontwo {
+    text-align: center;
+    display: inline-block;
+    background-color: #BA1F33;
+    width: 145px;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 0px #000;
+    margin-right: 0;
+    transition: transform 400ms cubic-bezier(0.42, 0, 0.03, 1.56);
+
+}
+
+.buttontwo:hover {
+    transform: scale(1.08);
+}
