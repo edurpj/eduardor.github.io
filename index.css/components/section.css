@@ -2,7 +2,7 @@
     background-color: #BA1F33;
     padding-top: 50px;
     padding-bottom: 100px;
-    border-bottom: 10px solid rgb(247, 110, 97);
+    border-bottom: 10px solid rgb(8, 8, 8);
 }
 
 .sectionS .main-title {
@@ -11,9 +11,14 @@
 
 
 .sectionS.-bgBlack {
-    background-color: #000;
+    background-color : rgb(5, 7, 19);
 }
 
 .sectionS.-bdFirst {
-    border-color: crimson;
+    border-color: rgb(0, 0, 0);
+}
+
+.sectionS.-bgSecond {
+    background-color: #BA1F33;
+    border-bottom: #000 solid 10px;
 }
