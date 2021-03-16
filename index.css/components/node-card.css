@@ -1,0 +1,33 @@
+.node-card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.node-card::before {
+    content: ' ';
+    box-sizing: border-box;
+    height: 0px;
+    width: 40px;
+    border: 2px dashed #000;
+    transform: rotate(90deg) translateX(130%);
+    bottom: 140px;
+}
+
+.node-card .title {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #BA1F33;
+    margin-bottom: 50px;
+}
+
+.node-card .logo {
+    height: 140px;
+    align-items: center;
+    border: 5px solid #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(194, 65, 65);
+}

@@ -1,6 +1,11 @@
 .main-description {
-    color: rgb(251, 247, 247);
-    font-size: 30px;
+    text-align: justify;
+    font-family: 'Fira Code', sans-serif;
+    color: #fbf7f7;
+    font-size: 25px;
     font-weight: 300;
     line-height: 1.4;
+    padding-left: 100px;
+    padding-right: 100px;
+
 }
